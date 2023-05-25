@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: var(--primary-font);
+    font-family: "Roboto", sans-serif;
     color: var(--primary-color);
     background-color: var(--primary-white-background);
 }
@@ -35,7 +35,7 @@ body {
     list-style-type: none;
 }
 
-.head-logo span {
+.head-logo-span {
     color: var(--secondary-color);
 }
 
@@ -47,8 +47,8 @@ body {
     color: var(--secondary-color);
 }
 
-.head-navigation-link .link:hover
-.head-navigation-link .link:focus {
+.head-navigation-link:hover,
+.head-navigation-link:focus {
     color: #404BBF;
 
 }
@@ -65,8 +65,8 @@ body {
     color: #434455;
 }
 
-.address-list .link:hover
-.address-list .link:focus {
+.address-list:hover,
+.address-list:focus {
     color: #404BBF;
 }
 
@@ -74,7 +74,7 @@ body {
     background-color: var(--secondary-background);
 }
 .footer-logo {
-    font-family:var(--title-font);
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -118,8 +118,8 @@ body {
     color:#FFFFFF;
 }
 
-.main-section .main-section-btn:hover
-.main-section .main-section-btn:focus {
+.main-section-btn:hover,
+.main-section-btn:focus {
     background: #404BBF;
 }
 
@@ -187,6 +187,10 @@ body {
 
 .portfolio-navigation.list {
     list-style-type: none;
+}
+
+.portfolio-navigation.link {
+    text-decoration: none;
 }
 
 .portfolio-btn {
