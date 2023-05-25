@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: "roboto", sans-serif;
+    font-family: var(--primary-font);
     color: var(--primary-color);
     background-color: var(--primary-white-background);
 }
@@ -47,10 +47,14 @@ body {
     color: var(--secondary-color);
 }
 
-.head-navigation-link:hover
-.head-navigation-link:focus {
+.head-navigation-link .link:hover
+.head-navigation-link .link:focus {
     color: #404BBF;
 
+}
+
+.head-address {
+    font-style: normal;
 }
 
 .address-list {
@@ -61,8 +65,8 @@ body {
     color: #434455;
 }
 
-.address-list:hover
-.address-list:focus {
+.address-list .link:hover
+.address-list .link:focus {
     color: #404BBF;
 }
 
@@ -70,8 +74,7 @@ body {
     background-color: var(--secondary-background);
 }
 .footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-family: var(--title-font);
+    font-family:var(--title-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -80,7 +83,7 @@ body {
     color: var(--footer-color);
     text-decoration: none;
 } 
-.footer-logo span {
+.footer-logo-link {
     color: var(--third-color);
 }
 
@@ -105,7 +108,7 @@ body {
 }
 
 .main-section-btn {
-    font-family: "roboto", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -115,8 +118,8 @@ body {
     color:#FFFFFF;
 }
 
-.main-section-btn:hover
-.main-section-btn:focus {
+.main-section .main-section-btn:hover
+.main-section .main-section-btn:focus {
     background: #404BBF;
 }
 
@@ -182,11 +185,11 @@ body {
     background-color: var(--primary-background);
 }
 
-.portfolio-navigation-list {
+.portfolio-navigation.list {
     list-style-type: none;
 }
 
-.portfolio-navigation-btn {
+.portfolio-btn {
     font-family: "roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -197,7 +200,7 @@ body {
     cursor: pointer;
 }
 
-.portfolio-navigation-btn:hover
+.portfolio-btn:hover
 .portfolio-navigation-btn:focus {
     color: #FFFFFF;
     background: #404BBF;
