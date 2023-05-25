@@ -196,7 +196,7 @@ body {
 }
 
 .portfolio-list .portfolio-btn {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -206,11 +206,10 @@ body {
     cursor: pointer;
 }
 
-.portfolio-btn:hover {
-    background: #404BBF;
-}
-.portfolio-navigation-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     color: #FFFFFF;
+    background: #404BBF;
 }
 
 .portfolio-heading {
