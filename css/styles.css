@@ -206,7 +206,15 @@ body {
     cursor: pointer;
 }
 
-.portfolio-btn:hover,
+.portfolio-btn {
+    font-family: "Roboto", sans-serif;
+}
+
+.portfolio-btn:hover {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
 .portfolio-btn:focus {
     color: #FFFFFF;
     background: #404BBF;
