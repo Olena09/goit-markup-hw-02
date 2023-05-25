@@ -206,10 +206,11 @@ body {
     cursor: pointer;
 }
 
-.portfolio-btn:hover,
+.portfolio-btn:hover {
+    background: #404BBF;
+}
 .portfolio-navigation-btn:focus {
     color: #FFFFFF;
-    background: #404BBF;
 }
 
 .portfolio-heading {
